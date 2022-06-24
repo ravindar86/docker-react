@@ -11,6 +11,7 @@ COPY --chown=node:node ./ ./
 
 CMD ["npm","run","start"]
 
+# commented old changes
 #FROM node:16-alpine
 
 #WORKDIR '/app'
@@ -21,3 +22,5 @@ CMD ["npm","run","start"]
 #COPY . .
 
 #CMD ["npm","run","start"]
+
+#testing the changes
